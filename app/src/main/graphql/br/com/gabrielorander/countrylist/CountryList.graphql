@@ -2,8 +2,7 @@ query Countries {
     countries {
         code
         name
-        languages {
-            name
-        }
+        capital
+        emoji
     }
 }
