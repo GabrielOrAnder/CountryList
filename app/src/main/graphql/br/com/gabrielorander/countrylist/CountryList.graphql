@@ -1,4 +1,4 @@
-query Countries {
+query CountryList {
     countries {
         code
         name
