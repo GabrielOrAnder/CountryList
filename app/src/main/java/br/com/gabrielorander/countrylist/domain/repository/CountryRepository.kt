@@ -6,5 +6,5 @@ import br.com.gabrielorander.countrylist.data.model.SimpleCountry
 interface CountryRepository {
     suspend fun countryList(): List<SimpleCountry>
 
-    suspend fun countryDetail(countryCode: String): DetailedCountry
+    suspend fun countryDetail(countryCode: String): DetailedCountry?
 }
